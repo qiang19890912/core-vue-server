@@ -1,6 +1,6 @@
-package com.alan.ServiceImpl;
+package com.alan.serviceImpl;
 
-import com.alan.Services.HelloService;
+import com.alan.services.HelloService;
 import org.springframework.stereotype.Component;
 
 @Component

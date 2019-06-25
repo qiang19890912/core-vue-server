@@ -1,4 +1,4 @@
-package com.alan.Services;
+package com.alan.services;
 
 import org.springframework.stereotype.Service;
 
