@@ -45,14 +45,14 @@ public class ResWrapper<T> {
     }
 
 
-    public static <T> ResWrapper Success(T data){
+    public static <T>ResWrapper Success(T data){
         return new ResWrapper<>(StatusCode.SUCCESS.getCode(),"",data);
     }
     public static ResWrapper Success(){
         return new ResWrapper(StatusCode.SUCCESS.getCode(),"");
     }
 
-    public static <T> ResWrapper BuineseError(String message,T data){
+    public static <T>ResWrapper BuineseError(String message,T data){
         return new ResWrapper<>(StatusCode.BUSINESS_ERROR.getCode(),message,data);
     }
 
