@@ -4,7 +4,7 @@ public class ResWrapper<T> {
 
     public enum StatusCode{
 
-        SUCCESS("成功", "0000"),
+        SUCCESS("成功", "200"),
         BUSINESS_ERROR("业务错误", "9999");
 
         public String getName() {
